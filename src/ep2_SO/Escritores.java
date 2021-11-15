@@ -20,7 +20,7 @@ public class Escritores extends ThreadsObj {
 			for (int i = 0; i < super.getBd().size(); i++) {
 				int posicao = r.nextInt(super.getBd().size());
 				String modificado = super.getBd().get(posicao);
-				modificado = "MODIFICADO";
+				modificado ="MODIFICADO";
 				System.out.println(modificado);
 			}
 			System.out.println("-----------------------------------------------------------------------------------------------");
