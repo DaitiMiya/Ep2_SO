@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ThreadsObj extends Thread{
-	private List<String> bd = new ArrayList<String>(100);
+	private List<String> bd = new ArrayList<String>();
 	
 	public ThreadsObj(List<String> bd) {
 		this.bd = bd;
